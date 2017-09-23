@@ -1,0 +1,22 @@
+{
+   "name": "PPK Extension",
+   "description": "PPK extension",
+   "version": "0.1",
+   "manifest_version": 2,
+   "minimum_chrome_version": "5.0",
+   "permissions": [
+      "tabs",
+      "*://*/*",
+      "contextMenus"
+   ],
+   "content_scripts": [
+      {
+         "matches": [
+            "<all_urls>"
+         ],
+         "js": [
+            "bandle.js"
+         ]
+      }
+   ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "ppk-extension",
+  "version": "0.0.1",
+  "description": "PPK Extension",
+  "main": "src/index.js",
+  "scripts": {
+    "prepublish": "start",
+    "start": "browserify src/index.js > bundle.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drazenp/ppk-extension.git"
+  },
+  "keywords": [
+    "ppk",
+    "chrome"
+  ],
+  "author": {
+    "name": "Drazen Pupovac",
+    "email": "drazenp@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^14.4.0"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

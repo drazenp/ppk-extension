@@ -15,7 +15,7 @@
             "<all_urls>"
          ],
          "js": [
-            "bandle.js"
+            "bundle.js"
          ]
       }
    ]

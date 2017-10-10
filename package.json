@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "prepublish": "start",
-    "start": "browserify src/index.js > bundle.js"
+    "start": "browserify src/index.js > ppk/scripts/bundle.js"
 },
   "repository": {
     "type": "git",

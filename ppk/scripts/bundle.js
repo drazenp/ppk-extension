@@ -10257,5 +10257,9 @@ return jQuery;
 var $ = require('jquery');
 
 // content.js
-alert("Hello from your Chrome extension!")
+alert("Hello from your Chrome extension!");
+
+$(function() {
+    console.log($('div').length);
+});
 },{"jquery":1}]},{},[2]);

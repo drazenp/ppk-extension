@@ -19,5 +19,10 @@
          ]
       }
    ],
-   "background" : { "scripts": ["scripts/background.js"] }
+   "background" : { "scripts": ["scripts/background.js"] },
+   "icons" : {
+    "16" : "minus16.png",
+    "48" : "minus48.png",
+    "128" : "minus128.png"
+  }
 }
